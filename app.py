@@ -11,7 +11,7 @@ def main():
     #set title of the app
     st.title("Heretica basecamp")
     #add a subheader
-    st.subheader('Equipez-vous pour l'ascension de vos recherches')
+    st.subheader('Equipez-vous pour l\'ascension de vos recherches')
     
     col1, col2, col3 = st.columns(3)
     with col1:
