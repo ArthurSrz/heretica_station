@@ -19,7 +19,7 @@ def main():
     with col2:
         st_lottie("https://assets3.lottiefiles.com/packages/lf20_dfJkYwImTB.json", height = 250)
     with col3:
-        st_lottie("https://assets3.lottiefiles.com/packages/lf20_dfJkYwImTB.json", height=250)
+        st_lottie("https://assets3.lottiefiles.com/packages/lf20_LeVlmipp6C.json", height=250)
 
     
     #add a logo
