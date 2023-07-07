@@ -23,7 +23,7 @@ def main():
 
     
     #add a logo
-    add_logo("gallery/heretica.png", height=20)
+    add_logo("gallery/heretica.png", height=200)
   
     
     next_page = st.button("Begin 🍾 ! ")
