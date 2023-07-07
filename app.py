@@ -9,28 +9,22 @@ from streamlit_lottie import st_lottie
 # Streamlit app
 def main():
     #set title of the app
-    st.title("Welcome to the Human-Data Interaction simulator")
+    st.title("Heretica basecamp")
     #add a subheader
-    st.subheader('Transform your data into a playful and intuitive game')
-    st_lottie("https://assets3.lottiefiles.com/packages/lf20_pWTOxQsYjN.json", height = 500)
+    st.subheader('Equipez-vous pour l'ascension de vos recherches')
     
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st_lottie("https://assets3.lottiefiles.com/packages/lf20_eeTaAMa5ER.json", height = 250)
+    with col2:
+        st_lottie("https://assets3.lottiefiles.com/packages/lf20_dfJkYwImTB.json", height = 250)
+    with col3:
+        st_lottie("https://assets3.lottiefiles.com/packages/lf20_dfJkYwImTB.json", height=250)
 
-
-    
-    #add some animation to make the user feel he will be using a very special kind of artefact.
-    #rain(emoji="🕺",font_size=40,falling_speed=4,animation_length="infinite")
     
     #add a logo
-    add_logo("gallery/logo_dataflow_vf.png", height=100)
-
-    #write the welcome text
-    st.write('Hello and welcome to the Human-Data Interaction (HDI) simulator. Before we begin, take time to settle down, make yourself comfortable, listen to the music below ⬇️')
-
-    # Add some ambiance sound
-    st_player("https://soundcloud.com/ristanuizuksh/sets/disclosure-you-and-me-flume")
-
-    #add some text
-    st.write('Feeling better ? Now you can start whenever you want !')
+    add_logo("gallery/heretica.png", height=100)
+  
     
     next_page = st.button("Begin 🍾 ! ")
     if next_page:
