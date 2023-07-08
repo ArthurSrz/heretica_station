@@ -22,7 +22,7 @@ def display_button_gallery(buttons, animation_urls, items_per_row=4):
             button = buttons[index]
             animation_url = animation_urls[index]
             col.button(button)
-            col.write(st_lottie(animation_url, width=200))
+            col.st_lottie(animation_url, width=200))
 
 # Streamlit app
 def main():
