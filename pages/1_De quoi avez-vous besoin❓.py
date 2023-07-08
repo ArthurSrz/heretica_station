@@ -27,6 +27,11 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
+        container = st.empty()
+        button_html = '<button style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; cursor: pointer; border: none; border-radius: 4px; box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);">La collecte de données</button>'
+        container.markdown(button_html, unsafe_allow_html=True)
+        if container.button(""):
+            open_url("https://example1.com")
         st.button('La collecte de données',on_click=open_url,args=('https://example1.com',),unsafe_allow_html=True)
         link = '[GitHub](http://github.com)'
         st.markdown(link, unsafe_allow_html=True)
