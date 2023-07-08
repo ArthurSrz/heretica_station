@@ -27,7 +27,7 @@ def main():
         st.markdown(button_md, unsafe_allow_html=True)
 
         button_md1 = '''
-    <a href="https://www.example.com" class="github-button" aria-label="Open External URL">Open External URL</a>
+    <a href="https://www.example.com" class="github-button" aria-label="Open">Open External URL</a>
     '''
         st.markdown(button_md1, unsafe_allow_html=True)
 
