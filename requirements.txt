@@ -6,4 +6,4 @@ matplotlib
 streamlit-player
 streamlit-extras
 streamlit-lottie
-bokeh
+bokeh==2.4.3
