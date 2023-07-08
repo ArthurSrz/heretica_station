@@ -13,7 +13,7 @@ def main():
     st.title("Dites-nous 🎙️")
     st.subheader('Si vous aviez un deuxième cerveau, sur quelle tâche lui demanderiez-vous de travailler ?')
 
-    st.markdown('##')
+    st.markdown('#')
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
