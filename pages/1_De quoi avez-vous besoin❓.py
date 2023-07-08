@@ -27,6 +27,7 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
+        st.button('La collecte de données',on_click=open_url,args=('https://example1.com',),unsafe_allow_html=True)
         link = '[GitHub](http://github.com)'
         st.markdown(link, unsafe_allow_html=True)
         
