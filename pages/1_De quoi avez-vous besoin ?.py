@@ -8,7 +8,7 @@ from PIL import Image
 from streamlit_lottie import st_lottie
 import json
 
-#Function to display the gallery
+# Function to display the gallery
 def display_button_gallery(buttons, animation_urls, items_per_row=4):
     num_items = len(buttons)
     num_rows = (num_items - 1) // items_per_row + 1
@@ -22,7 +22,7 @@ def display_button_gallery(buttons, animation_urls, items_per_row=4):
             button = buttons[index]
             animation_url = animation_urls[index]
             col.button(button)
-            col.lottie_animation(st_lottie(animation_url), width=200)
+            col.write(st_lottie(url=animation_url, width=200))
 
 # Streamlit app
 def main():
