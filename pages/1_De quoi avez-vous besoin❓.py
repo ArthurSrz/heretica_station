@@ -31,7 +31,7 @@ def main():
         st.button("Me sentir mieux")
         st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json", key="col3_lottie")
     with col4:
-        button_clicked = st.button("Me superviser")
+        st.button("Me superviser")
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json", key="col4_lottie")
 
     
