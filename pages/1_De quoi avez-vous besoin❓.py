@@ -20,7 +20,11 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.button("La collecte de données", key=1)
+
+        button_md1 = '''
+    <a href="https://www.example.com" class="github-button" aria-label="Open">Open</a>
+    '''
+        st.markdown(button_md1, unsafe_allow_html=True)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
         button_md = '''[Open External URL](https://www.google.com)'''
