@@ -12,7 +12,7 @@ def display_button_gallery(buttons, items_per_row=4):
     num_rows = (num_items - 1) // items_per_row + 1
 
     for row in range(num_rows):
-        cols = st.beta_columns(items_per_row)
+        cols = st.columns(items_per_row)
         start_index = row * items_per_row
         end_index = min(start_index + items_per_row, num_items)
 
