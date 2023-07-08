@@ -1,4 +1,5 @@
 # Import libraries
+from bokeh.models.widgets import Div
 import streamlit as st
 import pandas as pd
 from io import StringIO
@@ -26,6 +27,12 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
+        if st.button('Go to Streamlit'):
+            js = "window.open('https://www.streamlit.io/')"  # New tab or window
+            js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            st.bokeh_chart(div)
         url = 'https://www.streamlit.io/'
         if st.button('Open browser'):
             webbrowser.open_new_tab(url)
