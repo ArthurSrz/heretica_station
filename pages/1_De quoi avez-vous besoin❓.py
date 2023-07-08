@@ -27,6 +27,9 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
+        link = '[GitHub](http://github.com)'
+        st.markdown(link, unsafe_allow_html=True)
+        
         st.button('La collecte de données')
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
