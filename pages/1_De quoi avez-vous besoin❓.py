@@ -20,17 +20,17 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.button("La collecte de données")
+        st.button("La collecte de données", key=1)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
     with col2:
-        st.button("La collecte de données")
+        st.button("La collecte de données", key=2)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
     with col3:
-        st.button("Me sentir mieux")
+        st.button("Me sentir mieux", key=3)
         st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json", key="col3_lottie")
     with col4:
-        st.button("Me superviser")
+        st.button("Me superviser", key=4)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json", key="col4_lottie")
 
     
