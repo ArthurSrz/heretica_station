@@ -28,6 +28,9 @@ def main():
             js_code = f"window.open('{url}')"  # JavaScript code to open the URL
             st.write(f"<script>{js_code}</script>", unsafe_allow_html=True)
 
+        button_md = '''[Open External URL](https://www.google.com){:target="_blank" rel="noopener noreferrer"}'''
+        st.markdown(button_md, unsafe_allow_html=True)
+
     with col2:
         st.button("La collecte de données", key=2)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
