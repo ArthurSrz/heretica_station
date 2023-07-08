@@ -28,7 +28,7 @@ def main():
             js_code = f"window.open('{url}')"  # JavaScript code to open the URL
             st.write(f"<script>{js_code}</script>", unsafe_allow_html=True)
 
-        button_md = '''[Open External URL](https://www.google.com){:target="_blank" rel="noopener noreferrer"}'''
+        button_md = '''[Open External URL](https://www.google.com)'''
         st.markdown(button_md, unsafe_allow_html=True)
 
     with col2:
