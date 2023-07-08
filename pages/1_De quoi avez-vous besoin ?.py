@@ -16,8 +16,8 @@ def main():
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.empty()
-        st.button("La collecte de données")
-        st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", width=200)
+        st.button("La collecte de données", key="col1_button", style="text-align: center")
+        st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
         st.empty()
     with col2:
         st.empty()
