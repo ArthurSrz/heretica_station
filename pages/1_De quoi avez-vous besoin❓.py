@@ -16,7 +16,7 @@ def main():
 
     
     c = st.empty()
-    c.write(" ")
+    c.write("This is empty")
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
