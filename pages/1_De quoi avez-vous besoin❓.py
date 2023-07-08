@@ -23,6 +23,11 @@ def main():
         st.button("La collecte de données", key=1)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
+        if st.button("Open External URL"):
+            url = "https://www.example.com"  # Replace with your desired URL
+            js_code = f"window.open('{url}')"  # JavaScript code to open the URL
+            st.write(f"<script>{js_code}</script>", unsafe_allow_html=True)
+
     with col2:
         st.button("La collecte de données", key=2)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
