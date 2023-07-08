@@ -23,13 +23,13 @@ def main():
         st.button("La collecte de données", key=1)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
-        if st.button("Open External URL"):
-            url = "https://www.google.com"  # Replace with your desired URL
-            js_code = f"window.open('{url}')"  # JavaScript code to open the URL
-            st.write(f"<script>{js_code}</script>", unsafe_allow_html=True)
-
         button_md = '''[Open External URL](https://www.google.com)'''
         st.markdown(button_md, unsafe_allow_html=True)
+
+        button_md1 = '''
+    <a href="https://www.example.com" class="github-button" aria-label="Open External URL">Open External URL</a>
+    '''
+        st.markdown(button_md1, unsafe_allow_html=True)
 
     with col2:
         st.button("La collecte de données", key=2)
