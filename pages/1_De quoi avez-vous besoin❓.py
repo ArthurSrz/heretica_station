@@ -32,7 +32,6 @@ def main():
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
             st.bokeh_chart(div)
-        url = 'https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9'
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
     
