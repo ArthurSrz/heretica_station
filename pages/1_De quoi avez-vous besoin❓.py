@@ -11,7 +11,7 @@ import webbrowser
 
 # Function to open a URL
 def open_url(url):
-    webbrowser.open(url)
+    webbrowser.open_new_tab(url)
 
 
 
