@@ -23,6 +23,7 @@ def main():
         st.empty()
         st.button("L'écriture")
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", width=200)
+        st.empty()
     with col3:
         st.button("Me sentir mieux")
         st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json")
