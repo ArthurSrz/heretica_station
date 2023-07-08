@@ -5,9 +5,11 @@ from io import StringIO
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.switch_page_button import switch_page
 from PIL import Image
+from streamlit_lottie import st_lottie
+import json
 
 #Function to display the gallery
-def display_button_gallery(buttons, images, items_per_row=4):
+def display_button_gallery(buttons, animation_urls, items_per_row=4):
     num_items = len(buttons)
     num_rows = (num_items - 1) // items_per_row + 1
 
@@ -18,10 +20,9 @@ def display_button_gallery(buttons, images, items_per_row=4):
 
         for col, index in zip(cols, range(start_index, end_index)):
             button = buttons[index]
-            image = images[index]
+            animation_url = animation_urls[index]
             col.button(button)
-            col.image(image, use_column_width=True)
-            
+            col.lottie_animation(st_lottie(animation_url), width=200)
 
 # Streamlit app
 def main():
@@ -31,9 +32,13 @@ def main():
     
     # Example usage
     button_labels = ['Button 1', 'Button 2', 'Button 3', 'Button 4']
-    image_paths = ['gallery/data_heretica.gif', 'gallery/writing_heretica.gif', 'gallery/feel_better_heretica.gif', 'gallery/method_heretica.gif']
-    images = [Image.open(image_path) for image_path in image_paths]
-    display_button_gallery(button_labels, images)
+    animation_urls = [
+        "https://assets8.lottiefiles.com/datafiles/qDp9b8XrbOYBk48/data.json",
+        "https://assets8.lottiefiles.com/datafiles/MuGgH9MvRcneO2j/data.json",
+        "https://assets8.lottiefiles.com/packages/lf20_YjJewb.json",
+        "https://assets8.lottiefiles.com/packages/lf20_HrCvuL.json"]
+    
+    display_button_gallery(button_labels, animation_urls)
     
     next_page = st.button("Suivre Heretica")
     if next_page:
