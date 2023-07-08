@@ -27,11 +27,7 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        if st.button('La collecte de données'):
-            js = "window.open('https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9')"  # New tab or window
-            html = '<img src onerror="{}">'.format(js)
-            div = Div(text=html)
-            st.bokeh_chart(div)
+        st.button('La collecte de données')
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
 
     
