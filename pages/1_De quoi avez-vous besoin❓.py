@@ -1,5 +1,4 @@
 # Import libraries
-from bokeh.models.widgets import Div
 import streamlit as st
 import pandas as pd
 from io import StringIO
