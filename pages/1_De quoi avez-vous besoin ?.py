@@ -9,7 +9,7 @@ from streamlit_extras.switch_page_button import switch_page
 # Streamlit app
 def main():
     st.title("De quoi avez-vous besoin ?")
-    st.subheader('Si demain vous pouviez avoir un deuxième cerveau, sur quelle tâche lui demanderiez-vous de travailler ?')
+    st.subheader('Si vous aviez un deuxième cerveau, sur quelle tâche lui demanderiez-vous de travailler ?')
 
     
     next_page = st.button("Suivre Heretica")
