@@ -26,6 +26,10 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
+        url = 'https://www.streamlit.io/'
+        if st.button('Open browser'):
+            webbrowser.open_new_tab(url)
+            
         button_clicked = st.button("La collecte de données")
         if button_clicked:
             open_url("https://google.com")
