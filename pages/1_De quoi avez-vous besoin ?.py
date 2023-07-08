@@ -18,20 +18,14 @@ def main():
         st.markdown('<p style="text-align: center;"><button>La collecte de données</button></p>', unsafe_allow_html=True)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
     with col2:
-        st.empty()
-        st.button("L'écriture")
-        st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", width=200)
-        st.empty()
+        st.markdown('<p style="text-align: center;"><button>L\'écriture</button></p>', unsafe_allow_html=True)
+        st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
     with col3:
-        st.empty()
-        st.button("Me sentir mieux")
-        st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json")
-        st.empty()
+        st.markdown('<p style="text-align: center;"><button>Me sentir mieux</button></p>', unsafe_allow_html=True)
+        st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json", key="col3_lottie")
     with col4:
-        st.empty()
-        st.button("Me superviser")
-        st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json")
-        st.empty()
+        st.markdown('<p style="text-align: center;"><button>Me superviser</button></p>', unsafe_allow_html=True)
+        st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json", key="col4_lottie")
 
     
     next_page = st.button("Suivre Heretica")
