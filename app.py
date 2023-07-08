@@ -28,7 +28,7 @@ def main():
     
     next_page = st.button("Accès")
     if next_page:
-        switch_page("De quoi avez-vous besoin ?")
+        switch_page("1_De quoi avez-vous besoin ?")
 
 if __name__ == "__main__":
     main()
