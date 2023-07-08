@@ -15,10 +15,8 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.empty()
-        st.button("La collecte de données", key="col1_button", style="text-align: center")
+        st.markdown('<p style="text-align: center;"><button>La collecte de données</button></p>', unsafe_allow_html=True)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
-        st.empty()
     with col2:
         st.empty()
         st.button("L'écriture")
