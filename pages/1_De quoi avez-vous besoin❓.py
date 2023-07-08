@@ -10,7 +10,7 @@ import json
 
 # Streamlit app
 def main():
-    st.title("De quoi avez-vous besoin ?")
+    st.title("Dites-nous 🎙️")
     st.subheader('Si vous aviez un deuxième cerveau, sur quelle tâche lui demanderiez-vous de travailler ?')
 
 
