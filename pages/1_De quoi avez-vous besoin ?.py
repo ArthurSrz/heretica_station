@@ -21,7 +21,7 @@ def main():
         st.empty()
     with col2:
         st.empty()
-        st.button("L'écriture", key="col1_button", style="text-align: center")
+        st.button("L'écriture")
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", width=200)
         st.empty()
     with col3:
