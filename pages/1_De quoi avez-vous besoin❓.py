@@ -22,7 +22,7 @@ def main():
     with col1:
 
         button_md1 = '''
-    <a href="https://www.example.com" class="github-button" aria-label="Open">Open</a>
+    <a href="https://www.example.com" class="github-button" aria-label="Open", style="display: inline-block; text-align: center; width: 100%;">Open</a>
     '''
         st.markdown(button_md1, unsafe_allow_html=True)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
