@@ -31,7 +31,7 @@ def main():
     
     # Example usage
     button_labels = ['Button 1', 'Button 2', 'Button 3', 'Button 4']
-    image_paths = ['gallery/data_heretica.gif', 'gallery/writing_heretica.gif', 'image3.jpg', 'image4.jpg']
+    image_paths = ['gallery/data_heretica.gif', 'gallery/writing_heretica.gif', 'gallery/feel_better_heretica.gif', 'image4.jpg']
     images = [Image.open(image_path) for image_path in image_paths]
     display_button_gallery(button_labels, images)
     
