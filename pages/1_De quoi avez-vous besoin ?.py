@@ -31,12 +31,12 @@ def main():
 
     
     # Example usage
-    button_labels = ['Button 1', 'Button 2', 'Button 3', 'Button 4']
+    button_labels = ["La collecte de données", "L'écriture", "Me sentir mieux", "Me superviser"]
     animation_urls = [
-        "https://assets8.lottiefiles.com/datafiles/qDp9b8XrbOYBk48/data.json",
-        "https://assets8.lottiefiles.com/datafiles/MuGgH9MvRcneO2j/data.json",
-        "https://assets8.lottiefiles.com/packages/lf20_YjJewb.json",
-        "https://assets8.lottiefiles.com/packages/lf20_HrCvuL.json"]
+        "https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json",
+        "https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json",
+        "https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json",
+        "https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json"]
     
     display_button_gallery(button_labels, animation_urls)
     
