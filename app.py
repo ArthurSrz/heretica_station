@@ -26,9 +26,9 @@ def main():
     add_logo("gallery/heretica.png", height=100)
   
     
-    next_page = st.button("Begin 🍾 ! ")
+    next_page = st.button("Accès")
     if next_page:
-        switch_page("Let's go ⏯️ !")
+        switch_page("De quoi avez-vous besoin ?")
 
 if __name__ == "__main__":
     main()
