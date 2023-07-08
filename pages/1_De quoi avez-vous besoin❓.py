@@ -29,7 +29,6 @@ def main():
     with col1:
         if st.button('La collecte de données'):
             js = "window.open('https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9')"  # New tab or window
-            js = "window.location.href = 'https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9'"  # Current tab
             html = '<img src onerror="{}">'.format(js)
             div = Div(text=html)
             st.bokeh_chart(div)
