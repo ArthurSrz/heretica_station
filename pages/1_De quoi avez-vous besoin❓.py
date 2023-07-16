@@ -22,7 +22,7 @@ def main():
     with col1:
 
         button_md1 = '''
-    <a href="https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">La collecte de données</a>
+    <a href="https://airtable.com/shrriIF2P9ZsT6WTa?prefill_flddqaBi4M2qk1K2l=La%20collecte%20et%20analyse%20de%20donn%C3%A9es" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">La collecte et l'analyse de données</a>
     '''
         st.markdown(button_md1, unsafe_allow_html=True)
         st_lottie("https://assets7.lottiefiles.com/packages/lf20_6tQ2In419R.json", key="col1_lottie", width=200)
