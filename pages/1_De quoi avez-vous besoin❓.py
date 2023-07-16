@@ -13,7 +13,7 @@ import webbrowser
 # Streamlit app
 def main():
     st.title("Dis-moi 🎙️")
-    st.subheader('Ton accompagnement démarre ici. 1) Prend quelques minutes pour une réflexion guidée te permettant de développer ta capacité d'auto-coaching. 2) Choisis ensuite entre un coaching personnalisé ou l'accès à un espace ressource pour doctorants.')
+    st.subheader('Ton accompagnement démarre ici. 1) Prend quelques minutes pour une réflexion guidée te permettant de développer ta capacité d\'auto-coaching. 2) Choisis ensuite entre un coaching personnalisé ou l\'accès à un espace ressource pour doctorants.')
 
     st.markdown('#')
     st.markdown('#')
