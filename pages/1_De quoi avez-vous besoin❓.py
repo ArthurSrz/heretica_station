@@ -35,13 +35,13 @@ def main():
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
     with col3:
         button_md3 = '''
-    <a href="https://airtable.com/shrGSDdYoH2xD1s43?prefill_flddqaBi4M2qk1K2l=Autre" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me sentir mieux et m'organiser</a>
+    <a href="https://airtable.com/shrGSDdYoH2xD1s43?prefill_flddqaBi4M2qk1K2l=Me%20sentir%20mieux%20et%20m%E2%80%99organiser" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me sentir mieux et m'organiser</a>
     '''
         st.markdown(button_md3, unsafe_allow_html=True)
         st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json", key="col3_lottie")
     with col4:
         button_md4 = '''
-    <a href="https://airtable.com/shrAKn1VFVDScS69i?prefill_flddqaBi4M2qk1K2l=Autre" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me superviser</a>
+    <a href="https://airtable.com/shrAKn1VFVDScS69i?prefill_flddqaBi4M2qk1K2l=Autre" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Autre</a>
     '''
         st.markdown(button_md4, unsafe_allow_html=True)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json", key="col4_lottie")
