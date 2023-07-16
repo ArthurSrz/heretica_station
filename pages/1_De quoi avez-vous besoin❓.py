@@ -35,7 +35,7 @@ def main():
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
     with col3:
         button_md3 = '''
-    <a href="https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me sentir mieux</a>
+    <a href="https://airtable.com/shrzPGgYdpB7D1yIj?prefill_flddqaBi4M2qk1K2l=Me%20sentir%20mieux%20et%20m%E2%80%99organiser" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me sentir mieux et m'organiser</a>
     '''
         st.markdown(button_md3, unsafe_allow_html=True)
         st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json", key="col3_lottie")
