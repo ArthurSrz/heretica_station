@@ -41,7 +41,7 @@ def main():
         st_lottie("https://assets2.lottiefiles.com/packages/lf20_pz5BGiTCej.json", key="col3_lottie")
     with col4:
         button_md4 = '''
-    <a href="https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me superviser</a>
+    <a href="https://airtable.com/shrAKn1VFVDScS69i?prefill_flddqaBi4M2qk1K2l=Autre" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">Me superviser</a>
     '''
         st.markdown(button_md4, unsafe_allow_html=True)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json", key="col4_lottie")
