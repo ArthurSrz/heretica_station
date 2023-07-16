@@ -29,7 +29,7 @@ def main():
 
     with col2:
         button_md2 = '''
-    <a href="https://app.gather.town/invite?token=jjHpJ9ZER1Gych9WBtT9" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">L'écriture</a>
+    <a href="https://airtable.com/shrzPGgYdpB7D1yIj?prefill_flddqaBi4M2qk1K2l=L%E2%80%99%C3%A9criture%20%28th%C3%A8se%20et%20articles%29" class="github-button" aria-label="Open External URL" style="display: inline-block; text-align: center; width: 100%;">L'écriture (thèse et articles)</a>
     '''
         st.markdown(button_md2, unsafe_allow_html=True)
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_QdH33DmN0r.json", key="col2_lottie", width=200)
