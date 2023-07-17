@@ -49,9 +49,7 @@ def main():
         st_lottie("https://assets5.lottiefiles.com/packages/lf20_FAHP63f8vG.json", key="col4_lottie")
 
     
-    next_page = st.button("Suivre Heretica")
-    if next_page:
-        switch_page("Contact")
+
 
 if __name__ == "__main__":
     main()
