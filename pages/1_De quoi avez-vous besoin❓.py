@@ -14,7 +14,7 @@ import webbrowser
 def main():
     st.title("Dis-moi 🎙️")
     st.subheader('Ton accompagnement démarre ici.')
-    st.markdown('1) Prend quelques minutes pour une réflexion guidée te permettant de développer ta capacité d\'auto-coaching.') 
+    st.markdown('1) Prends quelques minutes pour une réflexion guidée te permettant de développer ta capacité d\'auto-coaching.') 
     st.markdown('2) Choisis ensuite entre un coaching personnalisé ou l\'accès à un espace ressource pour doctorants.')
 
     st.markdown('#')
