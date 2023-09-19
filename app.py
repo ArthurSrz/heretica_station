@@ -12,10 +12,24 @@ import webbrowser
 
 # Streamlit app
 def main():
-    st.title("Dis-moi 🎙️")
-    st.subheader('Ton accompagnement démarre ici.')
-    st.markdown('1) Prends quelques minutes pour une réflexion guidée te permettant de développer ta capacité d\'auto-coaching.') 
-    st.markdown('2) Choisis ensuite entre un coaching personnalisé ou l\'accès à un espace ressource pour doctorants.')
+    st.set_page_config(
+    page_title="Heretica veut répondre à tes besoins",
+    page_icon="https://raw.githubusercontent.com/heretica/review_breaker/main/media/heretica-website-favicon-color%20(2).png",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Qui est Heretica ?': 'https://www.linkedin.com/feed/update/urn:li:activity:7079490690094657536',
+        'Notre manifeste': "https://www.heretica.fr/manifeste"
+    }
+)
+
+
+
+    
+    st.title("Questionnaire Heretica 🙋‍♂️")
+    st.subheader('Quelques questions pour mieux comprendre les besoins des jeunes chercheurs')
+    st.markdown('1) Choisis ci-dessous la catégorie de besoins qui te semble la plus importante dans ton quotidien de chercheurs.') 
+    st.markdown('2) Réponds au questionnaire et laisse nous si tu le souhaites un contact si tu veux connaitre les résultats du questionnaire')
 
     st.markdown('#')
     st.markdown('#')
