@@ -15,7 +15,7 @@ def main():
 
     st.title("Questionnaire Heretica 🙋‍♂️")
     st.subheader('Quelques questions pour mieux comprendre les besoins des jeunes chercheurs')
-    st.markdown('1) Choisis ci-dessous la catégorie de besoins qui te semble la plus importante dans ton quotidien de chercheurs.') 
+    st.markdown('1) Choisis ci-dessous la catégorie de besoins qui te semble la plus importante dans ton quotidien de chercheur.') 
     st.markdown('2) Réponds au questionnaire et laisse nous si tu le souhaites un contact si tu veux connaitre les résultats du questionnaire')
 
     st.markdown('#')
