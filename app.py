@@ -13,19 +13,14 @@ import webbrowser
 # Streamlit app
 def main():
     st.set_page_config(
-    page_title="Heretica veut répondre à tes besoins",
-    page_icon="https://raw.githubusercontent.com/heretica/review_breaker/main/media/heretica-website-favicon-color%20(2).png",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Qui est Heretica ?': 'https://www.linkedin.com/feed/update/urn:li:activity:7079490690094657536',
-        'Notre manifeste': "https://www.heretica.fr/manifeste"
-    }
-)
+        page_title="Heretica veut répondre à tes besoins",
+        page_icon="https://raw.githubusercontent.com/heretica/review_breaker/main/media/heretica-website-favicon-color%20(2).png",
+        layout="wide",
+        initial_sidebar_state="expanded",
+        menu_items={
+            'Qui est Heretica ?': 'https://www.linkedin.com/feed/update/urn:li:activity:7079490690094657536',
+            'Notre manifeste': "https://www.heretica.fr/manifeste"})
 
-
-
-    
     st.title("Questionnaire Heretica 🙋‍♂️")
     st.subheader('Quelques questions pour mieux comprendre les besoins des jeunes chercheurs')
     st.markdown('1) Choisis ci-dessous la catégorie de besoins qui te semble la plus importante dans ton quotidien de chercheurs.') 
